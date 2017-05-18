@@ -25,7 +25,7 @@ class Module implements AutoloaderProviderInterface
     {
         return [
             'Zend\Loader\ClassMapAutoloader' => [
-                __DIR__.'/../../autoload_classmap.php',
+                __DIR__.'/../autoload_classmap.php',
             ],
             'Zend\Loader\StandardAutoloader' => [
                 'namespaces' => [
@@ -37,6 +37,6 @@ class Module implements AutoloaderProviderInterface
 
     public function getConfig()
     {
-        return include __DIR__.'/../../config/module.config.php';
+        return include __DIR__.'/../config/module.config.php';
     }
 }
