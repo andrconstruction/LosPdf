@@ -5,6 +5,12 @@
     "php" : ">=5.4",
     "zendframework/zendframework" : "^3.0.1"
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/andrconstruction/lospdf"
+        }
+    ],
   "require-dev" : {
     "satooshi/php-coveralls" : "dev-master",
     "phpunit/phpunit" : "~4.4"
