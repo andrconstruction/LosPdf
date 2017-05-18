@@ -1,5 +1,5 @@
 {
-  "name" : "los/lospdf",
+  "name" : "andrconstruction/lospdf",
   "description" : "ZF2 module to wrapper some pdf generation libraries",
   "require" : {
     "php" : ">=5.4",
