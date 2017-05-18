@@ -6,7 +6,7 @@
 This ZF2 module provides a wrapper to [mPdf](http://www.mpdf1.com) (more coming) to generate PDF documents from html.
 
 ## Requirements
-- [Zend Framework 2](http://framework.zend.com/)
+- [Zend Framework 3](http://framework.zend.com/)
 - [mPdf](http://www.mpdf1.com)
 
 ## Instalation
