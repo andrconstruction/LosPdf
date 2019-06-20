@@ -25,7 +25,7 @@ final class MpdfRenderer extends AbstractRenderer
     public function getEngine()
     {
         if ($this->engine === null) {
-            $this->engine = new mPDF();
+            $this->engine = new \Mpdf\Mpdf();
         }
 
         return $this->engine;
