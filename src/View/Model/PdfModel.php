@@ -25,6 +25,7 @@ class PdfModel extends ViewModel
     const PAPER_ORIENTATION = 'paperOrientation';
     const BASE_PATH = 'basePath';
     const FILE_NAME = 'fileName';
+    const FONT_EXT = 'fonts';
 
     const SIZE_A4 = 'A4';
     const SIZE_LETTER = 'Letter';
@@ -37,6 +38,7 @@ class PdfModel extends ViewModel
         self::PAPER_ORIENTATION => self::ORIENTATION_PORTRAIT,
         self::BASE_PATH => '/',
         self::FILE_NAME => 'file',
+        self::FONT_EXT => null,
     ];
 
     protected $captureTo = null;
